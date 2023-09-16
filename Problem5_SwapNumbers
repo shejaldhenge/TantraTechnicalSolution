@@ -1,0 +1,21 @@
+public class Problem5SwapNumbers {
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+        System.out.println("enter Integer a:");
+		int a=sc.nextInt();
+		System.out.println("enter Integer a:");
+		int b=sc.nextInt();
+		
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		
+		System.out.println("Integers after swapping:");
+		System.out.println("a="+a +" b="+b);
+
+
+	}
+
+}

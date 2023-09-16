@@ -1,0 +1,23 @@
+public class Problem4SwapStrings {
+	
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+        System.out.println("enter string a");
+		String a=sc.nextLine();
+		System.out.println("enter string b");
+		String b=sc.nextLine();
+		
+		char[] str1=a.toCharArray();
+		char[] str2=b.toCharArray();
+		
+		 a=new String(str2);
+		 b=new String(str1);
+		 
+		 System.out.println("Strings after Swapping:");
+		 System.out.println("a="+ a+ " "+ "b="+ b);
+
+
+	}
+
+}
